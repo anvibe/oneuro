@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>oneuro. Small desktop apps for one euro or earned credits</title>
+  <meta name="description" content="Little desktop apps made with Claude. Pay one euro for an app, or share your own and earn credits. Join the early list.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="oneuro. Small apps. Big ideas. One euro.">
+  <meta property="og:description" content="Built something small with Claude? Share it, earn credits and get other makers’ apps. Join the early list.">
+  <!-- After you deploy, change this to the full address, e.g. https://your-domain.com/assets/og.png -->
+  <meta property="og:image" content="assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icons/coin.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/SourceSerif4-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="./">
+        <img src="assets/icons/coin.svg" alt="" width="52" height="52">
+        <span>oneuro<i>.</i></span>
+      </a>
+      <a class="btn btn-small" href="#join" data-join>Join the list</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="tag">Built with AI. Shared by humans.</p>
+        <h1 id="hero-title">
+          <span>Small apps. Big&nbsp;ideas.</span>
+          <span class="price-line">One euro.</span>
+        </h1>
+        <p class="lead">Little desktop apps made with Claude. Pay one euro for an app, or share your own and earn credits. We’re gathering the first makers now.</p>
+
+        <!-- The signup form address is set in script.js (FORM_URL). -->
+        <div id="join" class="signup">
+          <a class="btn btn-coin" href="#join" data-join><img src="assets/icons/coin.svg" alt="" width="26" height="26">Join the list</a>
+          <p class="fine">Free. Takes a minute. <a href="privacy.html">Privacy</a></p>
+          <p class="status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <svg viewBox="0 0 848 366" role="img" aria-label="Pixel art of two people at their laptops passing a one euro coin to each other, with small apps floating around them">
+          <image href="assets/hero-base.webp" width="848" height="366"/>
+          <g class="window">
+            <image href="assets/hero-window.webp" x="349" y="25" width="224" height="120"/>
+            <rect class="click" x="506" y="79" width="22" height="22"/>
+          </g>
+          <g class="rays">
+            <path d="M471 153V170"/>
+            <path d="M438 163L446 175"/>
+            <path d="M504 160L498 175"/>
+            <path d="M415 178L428 188"/>
+            <path d="M527 175L514 186"/>
+            <path d="M401 210H418"/>
+            <path d="M524 206H541"/>
+          </g>
+          <g class="coin-float"><image class="coin-spin" href="assets/hero-coin.webp" x="433" y="179" width="76" height="70"/></g>
+          <g transform="translate(86 170)"><image class="tile" style="--i:0" href="assets/icons/focus.svg" width="58" height="58"/></g>
+          <g transform="translate(188 56)"><image class="tile" style="--i:1" href="assets/icons/pixel.svg" width="58" height="58"/></g>
+          <g transform="translate(602 34)"><image class="tile" style="--i:2" href="assets/icons/memo.svg" width="58" height="58"/></g>
+          <g transform="translate(760 58)"><image class="tile" style="--i:3" href="assets/icons/orbit.svg" width="58" height="58"/></g>
+        </svg>
+        <button type="button" class="pause" aria-pressed="false">Pause animation</button>
+      </div>
+    </section>
+
+    <section class="wrap examples" aria-labelledby="examples-title">
+      <div class="section-head">
+        <h2 id="examples-title">What could live here</h2>
+        <p>These six are made-up examples. The real ones come from you.</p>
+      </div>
+      <ul class="cards">
+        <li><img src="assets/icons/focus.svg" alt="" width="80" height="80"><div><h3>Focus</h3><p>A little space to concentrate.</p></div><span class="chip">€1 or 1 credit</span></li>
+        <li><img src="assets/icons/drop.svg" alt="" width="80" height="80"><div><h3>Drop</h3><p>Your everyday file companion.</p></div><span class="chip">€1 or 1 credit</span></li>
+        <li><img src="assets/icons/memo.svg" alt="" width="80" height="80"><div><h3>Memo</h3><p>Capture ideas instantly.</p></div><span class="chip">€1 or 1 credit</span></li>
+        <li><img src="assets/icons/orbit.svg" alt="" width="80" height="80"><div><h3>Orbit</h3><p>Organize your desktop.</p></div><span class="chip">€1 or 1 credit</span></li>
+        <li><img src="assets/icons/pixel.svg" alt="" width="80" height="80"><div><h3>Pixel</h3><p>A tiny creative toolkit.</p></div><span class="chip">€1 or 1 credit</span></li>
+        <li><img src="assets/icons/daylight.svg" alt="" width="80" height="80"><div><h3>Daylight</h3><p>Make time for yourself.</p></div><span class="chip">€1 or 1 credit</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap ways" aria-labelledby="ways-title">
+      <div class="section-head">
+        <h2 id="ways-title">Two ways to get an app</h2>
+        <p>This is the plan. Nothing is on sale yet.</p>
+      </div>
+      <div class="ways-grid">
+        <div>
+          <h3>Pay €1</h3>
+          <p>Nothing to share yet? Pick an app and pay one euro for it.</p>
+        </div>
+        <div>
+          <h3>Use earned credits</h3>
+          <p>Share your own app. You earn credits when people download it, and spend them on other makers’ apps.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap steps" aria-labelledby="steps-title">
+      <h2 id="steps-title">How it starts</h2>
+      <ol>
+        <li><h3>Join the list</h3><p>Leave your email and say if you build apps or want to try them.</p></li>
+        <li><h3>Share your idea</h3><p>When we’re ready, makers send us what they built with Claude.</p></li>
+        <li><h3>Meet the first users</h3><p>We open with those apps. People get them for €1 or with credits.</p></li>
+      </ol>
+    </section>
+
+    <section class="wrap maker" aria-labelledby="maker-title">
+      <img src="assets/flag.webp" alt="" width="200" height="112">
+      <div>
+        <h2 id="maker-title">Made something cool? Share it.</h2>
+        <p>Get feedback, connect with other makers and earn credits for their apps. Yours doesn’t need to be finished to join the list.</p>
+      </div>
+      <a class="btn" href="#join" data-join>Become a maker</a>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>oneuro is an independent project. It is not affiliated with or endorsed by Anthropic.</p>
+    <a href="privacy.html">Privacy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
