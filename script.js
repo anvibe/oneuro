@@ -1,6 +1,6 @@
 // Paste the share link of your signup form here (Tally or Typeform),
 // for example "https://tally.so/r/XXXXXX".
-const FORM_URL = "";
+const FORM_URL = "https://tally.so/r/yXJK86";
 
 const status = document.querySelector(".status");
 

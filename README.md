@@ -10,20 +10,12 @@ python3 -m http.server 4173
 
 ## Before you share it
 
-1. **Connect the signup form.** Create a free form at tally.so with:
-   - Email (required)
-   - “What brings you here?”: “I build apps” / “I want to try them” (required)
-   - “What have you built, or want to build?” (long text, optional)
-   - “Would you share your app for credits, or would you rather be paid?”:
-     “Credits are fine” / “I’d rather be paid” / “Not sure” (optional)
-   - A line of text: “We only email you about oneuro. Unsubscribe any time.”,
-     with a link to your privacy page.
-
-   Publish it, copy the share link and paste it into `FORM_URL` at the top of
-   `script.js`. Send one test answer and check it shows up in Tally.
+1. **Signup form.** Done: the Tally form `https://tally.so/r/yXJK86`, set as
+   `FORM_URL` at the top of `script.js`. Answers appear in your Tally account.
+   It asks for an email and whether the person builds apps or wants to try them.
+   Builders also see two optional questions: what they built, and credits or payment.
    Tally collects the answers; to send emails later, export them to an email tool
-   and include an unsubscribe link. A Typeform link works too, but its free plan
-   allows only 10 responses a month (then update `privacy.html`).
+   and include an unsubscribe link.
 2. **Fill in `privacy.html`.** Replace every highlighted placeholder.
 3. **Deploy.** The site is served by GitHub Pages from the `main` branch, at
    `https://anvibe.github.io/oneuro/`. Pushing to `main` updates it. Pages needs a
