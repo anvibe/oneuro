@@ -92,7 +92,6 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.
 .prose { max-width: 44rem; padding-block: 3rem; }
 .prose h1 { font-size: 2.75rem; }
 .prose h2 { font-size: 1.4rem; margin: 2rem 0 0.5rem; }
-.prose mark { background: #ffe39a; padding: 0 0.2em; }
 
 @media (max-width: 1100px) {
   .hero { grid-template-columns: 1fr; padding-top: 2rem; }

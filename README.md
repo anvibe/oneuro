@@ -16,7 +16,8 @@ python3 -m http.server 4173
    Builders also see two optional questions: what they built, and credits or payment.
    Tally collects the answers; to send emails later, export them to an email tool
    and include an unsubscribe link.
-2. **Fill in `privacy.html`.** Replace every highlighted placeholder.
+2. **Privacy page.** `privacy.html` names who runs the site and how to get in touch.
+   Update it before adding analytics, cookies or another email service.
 3. **Deploy.** The site is served by GitHub Pages from the `main` branch, at
    `https://anvibe.github.io/oneuro/`. Pushing to `main` updates it. Pages needs a
    public repository unless the account has a paid GitHub plan.
