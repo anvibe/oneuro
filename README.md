@@ -30,3 +30,7 @@ The hero pieces (`assets/hero-*.webp`), `assets/flag.webp` and `assets/og.png` a
 from the concept mockup. The hero moves via the inline SVG in `index.html` and the
 keyframes at the end of `styles.css`. Replace them with higher-resolution exports if you have them.
 Fonts (Source Serif 4, IBM Plex Mono) are under the Open Font License.
+
+## Rights
+
+© 2026 Fausto Melchiorre. All rights reserved. See [LICENSE](LICENSE).
