@@ -25,9 +25,11 @@ python3 -m http.server 4173
    and include an unsubscribe link. A Typeform link works too, but its free plan
    allows only 10 responses a month (then update `privacy.html`).
 2. **Fill in `privacy.html`.** Replace every highlighted placeholder.
-3. **Deploy** the folder to any static host (Vercel, Netlify, GitHub Pages).
-4. **Fix the link preview.** In `index.html`, make `og:image` a full `https://` address.
-   Then paste the page link into LinkedIn's Post Inspector to check the preview.
+3. **Deploy.** The site is served by GitHub Pages from the `main` branch, at
+   `https://anvibe.github.io/oneuro/`. Pushing to `main` updates it. Pages needs a
+   public repository unless the account has a paid GitHub plan.
+4. **Check the link preview.** Paste the page link into LinkedIn's Post Inspector.
+   If you move to another domain, update `og:url` and `og:image` in `index.html`.
 
 ## Assets
 
